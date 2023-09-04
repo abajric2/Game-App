@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ba.etf.rma23.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_gameDetailsFragment"
+            app:destination="@id/gameDetailsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_savedGamesFragment"
+            app:destination="@id/savedGamesFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/gameDetailsFragment"
+        android:name="ba.etf.rma23.GameDetailsFragment"
+        android:label="GameDetailsFragment" >
+        <action
+            android:id="@+id/action_gameDetailsFragment_to_homeFragment2"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_gameDetailsFragment_to_savedGamesFragment"
+            app:destination="@id/savedGamesFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/savedGamesFragment"
+        android:name="ba.etf.rma23.SavedGamesFragment"
+        android:label="fragment_saved_games"
+        tools:layout="@layout/fragment_saved_games" >
+        <action
+            android:id="@+id/action_savedGamesFragment_to_gameDetailsFragment"
+            app:destination="@id/gameDetailsFragment" />
+        <action
+            android:id="@+id/action_savedGamesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+</navigation>
