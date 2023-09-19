@@ -10,4 +10,6 @@ Android mobile application developed as part of an independent project in the co
 <p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
 
 ### Contact
-- Email: [abajric2@etf.unsa.ba](mailto:abajric2@etf.unsa.ba)
+- Email: [bajricaminaa@gmail.com](mailto:bajricaminaa@gmail.com)
+- LinkedIn: [Amina Bajric](https://www.linkedin.com/in/amina-bajric-b75619291/)
+- GitHub: [abajric2](https://github.com/abajric2/)
